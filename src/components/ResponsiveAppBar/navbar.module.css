@@ -1,0 +1,35 @@
+.navigation {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	vertical-align: middle;
+	align-content: center;
+	margin: 10px;
+	padding: 16px 0 16px 0;
+	overflow: hidden;
+	background-color: #4ea6ee;
+	margin-bottom: 40px;
+}
+
+.linkContainer {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle !important;
+	font-size: 24px;
+}
+
+.linkContainer a {
+	color: aliceblue;
+}
+
+.linkContainer a:hover {
+	color: rgb(6, 45, 219);
+}
+@media only screen and (max-width: 767px) {
+	.navigation {
+		margin-bottom: 40px !important;
+		padding: 20px 0 !important;
+	}
+}

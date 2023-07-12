@@ -1,0 +1,14 @@
+.liked {
+	color: rgb(226, 8, 8);
+}
+.notLiked {
+	color: rgb(172, 168, 168);
+}
+.seeDetails {
+	color: rgb(11, 118, 211);
+	font-size: 20px;
+	cursor: pointer;
+}
+.seeDetails:hover {
+	color: rgb(7, 31, 112);
+}

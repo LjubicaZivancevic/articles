@@ -1,0 +1,14 @@
+label {
+	font-size: 20px;
+	padding-right: 20px;
+}
+input {
+	width: 80px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 1px solid rgb(157, 157, 238);
+}
+input:focus {
+	border: 1px solid rgb(157, 157, 238);
+}

@@ -1,0 +1,24 @@
+.footer {
+	width: 100vw;
+	margin-top: 3rem;
+	background-color: #4ea6ee;
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+	padding: 3rem 0;
+	font-size: 24px;
+	justify-content: center;
+	position: relative;
+	bottom: 0;
+	color: aliceblue;
+}
+
+.socialIcons {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	justify-content: center;
+}
+.footerIcon {
+	color: aliceblue !important;
+}
