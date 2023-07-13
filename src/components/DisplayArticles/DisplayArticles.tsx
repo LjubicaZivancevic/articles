@@ -9,7 +9,6 @@ function DisplayArticles({ articles }: any) {
 				articles.map((article: ArticleProps, i: any) => (
 					<Article
 						key={i}
-						id={i}
 						{...article}></Article>
 				))}
 		</>

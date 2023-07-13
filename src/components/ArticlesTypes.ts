@@ -1,5 +1,5 @@
 export type ArticleProps = {
-	id?: number;
+	id?: number | string;
 	source: {
 		id: null | number;
 		name: string;
@@ -15,9 +15,7 @@ export type ArticleProps = {
 
 export type ListOfArticles = {
 	articles: {
-		articles: {
-			articles: ArticleProps[];
-		};
+		articles: ArticleProps[];
 		likedArticles: ArticleProps[];
 		searchTerm: string;
 	};
